@@ -2,7 +2,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosugges
 echo "source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc
 #
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
-eho "source ~/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
+echo "source ~/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
 #
 touch "$HOME/.cache/zshhistory"
 #-- Setup Alias in $HOME/zsh/aliasrc
