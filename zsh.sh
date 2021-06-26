@@ -1,5 +1,8 @@
 #!/bin/bash
 
+sudo apt install zsh zsh-autosuggestions zsh-syntax-highlighting -y
+zsh
+
 echo "
 alias u='sudo apt update && sudo apt upgrade -y'
 alias del='sudo apt autoremove -y'
